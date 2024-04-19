@@ -1,0 +1,134 @@
+@import url('https://fonts.google.com/specimen/Young+Serif');
+@import url('https://fonts.google.com/specimen/Outfit');
+*{
+    padding: 0;
+    margin: 0;
+   box-sizing: border-box;
+}
+:root{
+    --Nutmeg:hsl(14, 45%, 36%);
+    --Dark_Raspberry:hsl(332, 51%, 32%);
+    --White: hsl(0, 0%, 100%);
+    --Rose_White:hsl(330, 100%, 98%);
+    --Eggshell:hsl(30, 54%, 90%);
+    --Light_Grey:hsl(30, 18%, 87%);
+    --Wenge_Brown: hsl(30, 10%, 34%);
+    --Dark_Charcoal: hsl(24, 5%, 18%)
+}
+body{
+    max-width: 1440px;
+    padding: 5px 15% 30px;
+    margin: 20px;
+    background-color: var(--Eggshell);
+
+}
+#main_page{
+    width: 85%;
+    padding: auto;
+    margin-left: 50px;
+    border-radius: 30px;
+    background-color: var(--White);
+}
+img{
+    width: 100%;
+    height: 400px;
+    padding: 30px;
+    border-radius: 40px;
+}
+h1{
+    padding: 5px 30px 15px;
+    margin:5px;
+    font-family:'Outfit';
+    font-weight: 700;
+    color: var(--Dark_Charcoal);
+}
+ .paragraph{
+    margin: 15px;
+ }
+p{
+
+    padding: 8x 5px 15px;
+   margin: 2px 20px;
+    font-family:'outfit';
+    font-weight: 600;
+    font-size: 16px;
+    color: var(--Wenge_Brown);
+}
+#prep_time{
+    padding: 30px;
+    margin: 30px;
+    border-radius: 10px;
+    background-color: var(--Rose_White);
+}
+#prep_heading3{
+    padding: 5px;
+    font-family: 'Outside';
+    font-weight: 600;
+    color: var(--Dark_Raspberry);
+}
+#prep_time li{
+padding: 5px 25px;
+font-family: 'youngserif';
+font-weight: 500;
+color: var(--Wenge_Brown);
+}
+span{
+    color: var(--Wenge_Brown);
+    font-size: large;
+    font-weight: 700;
+}
+#Ingredients{
+    padding: 20px;
+    margin: 30px;
+    border-radius: 10px;
+}
+#Ingredients h2{
+    padding: 10px 10px 5px;
+    font-family: 'Outside';
+    font-weight: 600;
+    color: var(--Nutmeg);
+}
+
+#Ingredients li{
+    padding: 5px 25px;
+    font-family: 'youngserif';
+    font-weight: 500;
+    color: var(--Wenge_Brown);
+    }
+#Instructions{
+    padding: 20px;
+    margin: 30px;
+}
+#Instructions h2{
+    padding: 10px 10px 3px;
+    font-family: 'Outside';
+    font-weight: 600;
+    color: var(--Nutmeg);
+}
+#Instructions li{
+    padding: 5px 25px;
+    font-family: 'youngserif';
+    font-weight: 500;
+    color: var(--Wenge_Brown);
+    }
+    #Nutrition{
+        padding: 15px;
+    margin: 10px;
+    }
+    #Nutrition h2{
+        padding: 10px 10px 3px;
+        font-family: 'Outside';
+        font-weight: 600;
+        color: var(--Nutmeg);
+    }
+    hr{
+        color: var(--Dark_Charcoal);
+    }
+    table{
+        width: 100%;
+    }
+    th, td {
+        padding: 15px;
+        text-align: left;
+        border-bottom: 1px solid var(--Dark_Charcoal);
+      }
