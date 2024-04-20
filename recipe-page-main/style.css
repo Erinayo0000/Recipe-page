@@ -130,5 +130,35 @@ span{
     th, td {
         padding: 15px;
         text-align: left;
-        border-bottom: 1px solid var(--Dark_Charcoal);
+
+      }
+      .td1{
+        color: var(--Wenge_Brown);
+        font-family: 'Outside';
+        font-weight: 600;
+      }
+      .td2{
+        color: var(--Dark_Raspberry);
+        font-family: 'Outside';
+        font-weight: 700;
+        font-size: large;
+      }
+      .table_hr1{
+        position:relative;
+        top: 50px;
+        left: 2px;
+      }
+      .table_hr2{
+        position:relative;
+        top: 100px;
+        left: 2px;
+      }
+      .table_hr3{
+        position:relative;
+        top: 150px;
+        left: 2px;
+      }
+      .attribution{
+        padding: 12px;
+        margin: 10px;
       }
