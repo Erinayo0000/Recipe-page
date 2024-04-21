@@ -36,10 +36,10 @@ img{
     border-radius: 40px;
 }
 h1{
-    padding: 5px 30px 15px;
+    padding: 5px 30px 5px;
     margin:5px;
-    font-family:'Outfit';
-    font-weight: 700;
+    font-family:'Young Serif';
+    font-weight: 900;
     color: var(--Dark_Charcoal);
 }
  .paragraph{
@@ -48,10 +48,10 @@ h1{
 p{
 
     padding: 8x 5px 15px;
-   margin: 2px 20px;
+   margin: 2px 20px 15px;
     font-family:'outfit';
-    font-weight: 600;
-    font-size: 16px;
+    font-weight: bold;
+   
     color: var(--Wenge_Brown);
 }
 #prep_time{
@@ -62,14 +62,14 @@ p{
 }
 #prep_heading3{
     padding: 5px;
-    font-family: 'Outside';
+    font-family: 'Outfit';
     font-weight: 600;
     color: var(--Dark_Raspberry);
 }
 #prep_time li{
 padding: 5px 25px;
-font-family: 'youngserif';
-font-weight: 500;
+font-family: 'Outfit';
+font-weight: 600;
 color: var(--Wenge_Brown);
 }
 span{
@@ -83,31 +83,31 @@ span{
     border-radius: 10px;
 }
 #Ingredients h2{
-    padding: 10px 10px 5px;
-    font-family: 'Outside';
-    font-weight: 600;
+    padding: 10px 10px 10px;
+    font-family: 'Outfit';
+    font-weight: 700;
     color: var(--Nutmeg);
 }
 
 #Ingredients li{
-    padding: 5px 25px;
-    font-family: 'youngserif';
-    font-weight: 500;
+    padding: 5px 25px 10px;
+    font-family: 'Young Serif';
+    font-weight: 600;
     color: var(--Wenge_Brown);
     }
 #Instructions{
-    padding: 20px;
+    padding: 10px;
     margin: 30px;
 }
 #Instructions h2{
-    padding: 10px 10px 3px;
-    font-family: 'Outside';
+    padding: 5px 10px 10px;
+    font-family: 'Young Serif';
     font-weight: 600;
     color: var(--Nutmeg);
 }
 #Instructions li{
-    padding: 5px 25px;
-    font-family: 'youngserif';
+    padding: 5px 25px 6px;
+    font-family: 'Outfit';
     font-weight: 500;
     color: var(--Wenge_Brown);
     }
@@ -117,7 +117,7 @@ span{
     }
     #Nutrition h2{
         padding: 10px 10px 3px;
-        font-family: 'Outside';
+        font-family: 'Outfit';
         font-weight: 600;
         color: var(--Nutmeg);
     }
@@ -134,12 +134,12 @@ span{
       }
       .td1{
         color: var(--Wenge_Brown);
-        font-family: 'Outside';
+        font-family: 'Outfit';
         font-weight: 600;
       }
       .td2{
         color: var(--Dark_Raspberry);
-        font-family: 'Outside';
+        font-family: 'Outfit';
         font-weight: 700;
         font-size: large;
       }
