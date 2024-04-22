@@ -162,3 +162,9 @@ span{
         padding: 12px;
         margin: 10px;
       }
+      @media  screen and (max-width:600px){
+        body{
+           background-color: var(--Dark_Charcoal);
+        }
+        
+      }
