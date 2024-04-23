@@ -29,6 +29,7 @@ body{
     border-radius: 30px;
     background-color: var(--White);
 }
+
 img{
     width: 100%;
     height: 400px;
@@ -162,9 +163,21 @@ span{
         padding: 12px;
         margin: 10px;
       }
+      @media screen and (max-width:1440px)  {
+        .hidden-image{
+            display: none;
+        }
+      }
       @media  screen and (max-width:600px){
         body{
            background-color: var(--Dark_Charcoal);
         }
-        
+        main{
+            border: none;
+            border-radius: none;
+        }
+        .hidden-image{
+            display: block;
+        }
+       
       }
