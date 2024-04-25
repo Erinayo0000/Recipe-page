@@ -163,11 +163,8 @@ span{
         padding: 12px;
         margin: 10px;
       }
-      @media screen and (max-width:1440px)  {
-        .hidden-image{
-            display: none;
-        }
-      }
+      
+      
       @media  screen and (max-width:600px){
         body{
            background-color: var(--Dark_Charcoal);
@@ -176,8 +173,5 @@ span{
             border: none;
             border-radius: none;
         }
-        .hidden-image{
-            display: block;
-        }
-       
+        
       }
